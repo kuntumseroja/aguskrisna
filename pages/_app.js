@@ -5,24 +5,24 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
-        <p className="text-4xl font-bold">Metaverse Marketplace</p>
+        <p className="text-4xl font-bold">Material Marketplace</p>
         <div className="flex mt-4">
-          <Link LegacyBehavior href="/">
+          <Link legacyBehavior href="/">
             <a className="mr-4 text-pink-500">
               Home
             </a>
           </Link>
-          <Link LegacyBehavior href="/create-nft">
+          <Link legacyBehavior href="/create-nft">
             <a className="mr-6 text-pink-500">
-              Sell NFT
+              Issue Material NFT
             </a>
           </Link>
-          <Link LegacyBehavior href="/my-nfts">
+          <Link legacyBehavior href="/my-nfts">
             <a className="mr-6 text-pink-500">
               My NFTs
             </a>
           </Link>
-          <Link LegacyBehavior href="/dashboard">
+          <Link legacyBehavior href="/dashboard">
             <a className="mr-6 text-pink-500">
               Dashboard
             </a>
